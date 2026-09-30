@@ -1,11 +1,31 @@
-# Sample Snack app
+# Chef's Menu Manager - Final Portfolio of Evidence (PoE)
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+## Project Overview
+**Chef's Menu Manager** is a React Native mobile application developed using Expo and React Native, tailored for restaurant owners and kitchen managers to manage daily restaurant menus across different meal courses seamlessly.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## Key Features & Implemented Requirements
+1. **Complete CRUD Operations (Create, Read, Update, Delete)**
+   - **Create (Add Dish):** Form-validated input interface allowing users to dynamically add new dishes specifying names, descriptions, course categories, and pricing.
+   - **Read (Structured List):** A high-performance, scrollable list presenting all menu records with distinct visual hierarchy.
+   - **Update (Edit Functionality):** Instant pre-population of form fields upon clicking "Edit," ensuring smooth modifications of existing items.
+   - **Delete (Removal):** Instantaneous deletion of obsolete menu items with immediate state synchronization.
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+2. **Advanced Search & Category Filtering**
+   - **Real-Time Search Bar:** Instantly filters menu items dynamically as the user types dish names.
+   - **Course Filter Chips:** Interactive category selectors (All, Starter, Main Course, Dessert) for rapid navigation and filtering.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+3. **Real-Time Statistics Dashboard**
+   - Automatically computes and presents critical menu metrics at a glance:
+     - Total active menu item count.
+     - Average pricing across all registered dishes calculated in South African Rand (R).
+     - Categorized breakdown counts for Starters, Main Courses, and Desserts.
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+## Change Log (Enhancements Since Part 2)
+- Migrated environment successfully to React Native (Expo).
+- Implemented full interactive CRUD lifecycle (Edit & Delete capabilities).
+- Added dynamic search, category filtering, and automated statistics overview dashboard.
+
+## References & Built-With
+- React Native Documentation (https://reactnative.dev/)
+- Expo Documentation (https://docs.expo.dev/)
+- JavaScript / React Hooks State Management Best Practices.
