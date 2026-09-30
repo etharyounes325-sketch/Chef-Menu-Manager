@@ -25,7 +25,6 @@
 - Implemented full interactive CRUD lifecycle (Edit & Delete capabilities).
 - Added dynamic search, category filtering, and automated statistics overview dashboard.
 
-## References & Built-With
-- React Native Documentation (https://reactnative.dev/)
-- Expo Documentation (https://docs.expo.dev/)
-- JavaScript / React Hooks State Management Best Practices.
+## References
+- Expo. (2026). *Expo Documentation*. Available at: https://docs.expo.dev/ [Accessed: 30 September 2026].
+- React Native. (2026). *React Native documentation*. Available at: https://reactnative.dev/ [Accessed: 30 September 2026].
